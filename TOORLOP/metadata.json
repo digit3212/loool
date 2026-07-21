@@ -1,0 +1,9 @@
+
+{
+  "name": "Tourloop",
+  "description": "A fully functional social media application prototype featuring a news feed, real-time post creation with AI assistance, comments, likes, and a responsive Facebook-like interface.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
