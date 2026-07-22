@@ -18,7 +18,7 @@ export default defineConfig(({ mode }) => {
     server: {
       host: '0.0.0.0', // Expose to network/container (crucial for Replit)
       port: parseInt(env.VITE_PORT || '5000'),
-      strictPort: true,
+      strictPort: false,
       cors: true,
       // Security headers for development server
       headers: {

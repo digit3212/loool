@@ -1,0 +1,11 @@
+{
+  "name": "project",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix TOORLOP run dev",
+    "build": "npm --prefix TOORLOP run build",
+    "preview": "npm --prefix TOORLOP run preview"
+  }
+}
