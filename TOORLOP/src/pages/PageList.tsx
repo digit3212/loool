@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flag, Search, Plus, ThumbsUp, MessageCircle, MoreHorizontal, Share2, Bell, BellOff, Trash2 } from 'lucide-react';
-import { Page } from '../../types';
-import { useLanguage } from '../../context/LanguageContext';
+import { Page } from '../types';
+import { useLanguage } from '../context/LanguageContext';
 
 interface PageListProps {
   pages: Page[];

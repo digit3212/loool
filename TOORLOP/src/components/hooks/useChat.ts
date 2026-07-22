@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { User } from '../types';
+import { User } from '../../types';
 
 export const useChat = () => {
   const [activeChats, setActiveChats] = useState<User[]>([]);

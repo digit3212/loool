@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { View, User } from '../types';
+import { View, User } from '../../types';
 
 export const useUI = (initialUser: User) => {
   const [currentView, setView] = useState<View>('home');

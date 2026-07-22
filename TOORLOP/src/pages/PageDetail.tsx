@@ -8,12 +8,12 @@ import {
   PinOff, Bell, BellOff, Share2, Download, UserCircle, Bookmark, BookmarkMinus, 
   Link as LinkIcon 
 } from 'lucide-react';
-import { Page, Post, User, Album, Photo } from '../../types';
-import CreatePost from '../CreatePost';
-import PostCard from '../PostCard';
-import { useLanguage } from '../../context/LanguageContext';
-import PageMediaLightbox from './PageMediaLightbox';
-import PagePhotos from './PagePhotos';
+import { Page, Post, User, Album, Photo } from '../types';
+import CreatePost from '../components/CreatePost';
+import PostCard from '../components/PostCard';
+import { useLanguage } from '../context/LanguageContext';
+import PageMediaLightbox from '../pages/PageMediaLightbox';
+import PagePhotos from '../pages/PagePhotos';
 
 interface PageDetailProps {
   viewingPage: Page;

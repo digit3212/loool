@@ -6,8 +6,8 @@ import {
   Clock, Search, Bookmark, BookmarkMinus, Bell, BellOff, Flag, Edit3, UserCircle, 
   Users, UserPlus, Lock, AtSign, Cat, Coffee, Gamepad2, Plane, Lightbulb, Pin, PinOff, AlertCircle, Copy, MoreHorizontal, AlertTriangle, Loader2 
 } from 'lucide-react';
-import { Page, User, Comment, Post } from '../../types';
-import { useLanguage } from '../../context/LanguageContext';
+import { Page, User, Comment, Post } from '../types';
+import { useLanguage } from '../context/LanguageContext';
 
 interface PageMediaLightboxProps {
   viewingPage: Page;

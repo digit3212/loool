@@ -2,11 +2,11 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import { Plus, Image as ImageIcon, Pen, ArrowRight, ArrowLeft, Check, Camera, Video, Play, X, MoreHorizontal } from 'lucide-react';
-import { User, Photo, Album, Page } from '../../types';
-import PrivacySelect, { PrivacyLevel } from '../PrivacySelect';
-import CreateAlbumModal from '../CreateAlbumModal';
-import { useLanguage } from '../../context/LanguageContext';
-import PageMediaLightbox from './PageMediaLightbox';
+import { User, Photo, Album, Page } from '../types';
+import PrivacySelect, { PrivacyLevel } from '../components/PrivacySelect';
+import CreateAlbumModal from '../components/CreateAlbumModal';
+import { useLanguage } from '../context/LanguageContext';
+import PageMediaLightbox from '../pages/PageMediaLightbox';
 
 interface PagePhotosProps {
   currentUser: User;

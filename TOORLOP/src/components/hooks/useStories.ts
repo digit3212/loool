@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
-import { Story, User } from '../types';
-import { initialStories, generateId } from '../data/initialData';
+import { Story, User } from '../../types';
+import { initialStories, generateId } from '../../data/initialData';
 
 export const useStories = (
   currentUser: User,

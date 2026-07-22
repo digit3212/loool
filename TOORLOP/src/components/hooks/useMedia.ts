@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { User, Photo, Album, VideoItem, Post, Comment } from '../types';
-import { initialYourPhotos, initialAlbums, generateId } from '../data/initialData';
-import { playAudio } from '../utils/audio';
+import { User, Photo, Album, VideoItem, Post, Comment } from '../../types';
+import { initialYourPhotos, initialAlbums, generateId } from '../../data/initialData';
+import { playAudio } from '../../utils/audio';
 
 /* Fix: Implemented useMedia hook to centralize media state management and shared interactions */
 export const useMedia = (

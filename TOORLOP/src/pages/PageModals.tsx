@@ -1,6 +1,6 @@
 import React from 'react';
 import { Plus, X, Edit, Loader2, Save, UserCog, UserPlus, Shield, Trash2, AlertTriangle, Globe, Mail, Phone, Search } from 'lucide-react';
-import { useLanguage } from '../../context/LanguageContext';
+import { useLanguage } from '../context/LanguageContext';
 
 interface PageModalsProps {
   showCreateModal: boolean;

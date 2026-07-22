@@ -13,12 +13,12 @@ import { safeSetItem, safeGetItem } from './utils/safeStorage';
 import { playAudio, preloadSounds } from './utils/audio';
 
 // Import Custom Hooks
-import { useAuth } from './hooks/useAuth';
-import { useUI } from './hooks/useUI';
-import { usePosts } from './hooks/usePosts';
-import { useMedia } from './hooks/useMedia';
-import { useStories } from './hooks/useStories';
-import { useChat } from './hooks/useChat';
+import { useAuth } from './components/hooks/useAuth';
+import { useUI } from './components/hooks/useUI';
+import { usePosts } from './components/hooks/usePosts';
+import { useMedia } from './components/hooks/useMedia';
+import { useStories } from './components/hooks/useStories';
+import { useChat } from './components/hooks/useChat';
 
 import {
   initialUser,

@@ -3580,7 +3580,7 @@ export const translations: Record<Language, TranslationSchema> = {
       "نوفوسيبيرسك": "Novosibirsk",
       "يكاترينبورغ": "Yekaterinburg",
       "قازان": "Kazan",
-      "نيجني نوفغورود": "Nizhny Novgorod"
+      "نيجني نوفغورود": "Nizhny Novgorod",
 
       // ... Add mappings for all other major cities referenced in data files as needed
       'الدوحة': 'Doha',

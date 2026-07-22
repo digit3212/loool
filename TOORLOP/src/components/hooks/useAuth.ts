@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
-import { User } from '../types';
-import { initialUser } from '../data/initialData';
+import { User } from '../../types';
+import { initialUser } from '../../data/initialData';
 
 export const useAuth = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

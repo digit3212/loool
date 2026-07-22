@@ -9,10 +9,10 @@ import {
 import { useLanguage } from '../context/LanguageContext';
 import { User, Post, Page, PageMember, Comment, Album, Photo } from '../types';
 import ChatWindow from './ChatWindow';
-import PageList from './pages/PageList';
-import PageDetail from './pages/PageDetail';
-import PageModals from './pages/PageModals';
-import PageMediaLightbox from './pages/PageMediaLightbox';
+import PageList from '../pages/PageList';
+import PageDetail from '../pages/PageDetail';
+import PageModals from '../pages/PageModals';
+import PageMediaLightbox from '../pages/PageMediaLightbox';
 import { safeSetItem, safeGetItem } from '../utils/safeStorage';
 
 interface ProfilePagesProps {

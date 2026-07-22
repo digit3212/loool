@@ -13,7 +13,7 @@ import {
   ALLOWED_FILE_TYPES, 
   MAX_FILE_SIZE, 
   HOBBIES_LIST 
-} from '../data/profileIntroData';
+} from '../data/profileintroData';
 
 interface ProfileIntroProps {
   currentUser: User;

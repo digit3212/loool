@@ -1,9 +1,9 @@
 
 import { useState, useEffect } from 'react';
-import { Post, User, Comment, VideoItem } from '../types';
-import { initialPosts, generateId } from '../data/initialData';
-import { formatDuration } from '../utils/formatters';
-import { safeSetItem } from '../utils/safeStorage';
+import { Post, User, Comment, VideoItem } from '../../types';
+import { initialPosts, generateId } from '../../data/initialData';
+import { formatDuration } from '../../utils/formatters';
+import { safeSetItem } from '../../utils/safeStorage';
 
 /* Fix: Implemented usePosts hook to manage feed state, persistence, and post interactions */
 export const usePosts = (

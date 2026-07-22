@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { createPortal } from 'react-dom';
 import { 
   Gamepad2, Play, Heart, Share2, Search, Users, Video, Star, Zap, LogOut, Check, AlertCircle, Bookmark,
-  Facebook, Twitter, Phone, Copy, X, CircleCheck
+  Facebook, Twitter, Phone, Copy, X, CheckCircle
 } from 'lucide-react';
 import { User } from '../types';
 import { 
@@ -393,7 +393,7 @@ const Gaming: React.FC<GamingProps> = ({ currentUser, onBack }) => {
       {notification && (
         <div className="fixed bottom-6 right-6 z-[100000] animate-bounce-in">
             <div className={`flex items-center gap-3 px-5 py-3.5 rounded-xl shadow-lg text-white backdrop-blur-md border border-white/10 ${notification.type === 'success' ? 'bg-emerald-600' : 'bg-blue-600'}`}>
-                {notification.type === 'success' ? <CircleCheck className="w-5 h-5" /> : <AlertCircle className="w-5 h-5" />}
+                {notification.type === 'success' ? <CheckCircle className="w-5 h-5" /> : <AlertCircle className="w-5 h-5" />}
                 <span className="font-medium text-sm">{notification.message}</span>
                 <button onClick={() => setNotification(null)} className="mr-2 text-white/80 hover:text-white transition">
                     <X className="w-4 h-4" />

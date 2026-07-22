@@ -11,7 +11,7 @@ import ProfileEvents from './ProfileEvents';
 import Marketplace from './Marketplace';
 import Gaming from './Gaming';
 import Profile from './Profile';
-import Memories from './Memories';
+import Memories from './Memorise';
 import { User, View, Post, Photo, VideoItem, Page, Album } from '../types';
 import { useLanguage } from '../context/LanguageContext';
 

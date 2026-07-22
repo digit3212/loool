@@ -5,7 +5,7 @@ import { Plus, Image as ImageIcon, Pen, ArrowRight, Check } from 'lucide-react';
 import { User, Photo, Album } from '../types';
 import PrivacySelect, { PrivacyLevel } from './PrivacySelect';
 import CreateAlbumModal from './CreateAlbumModal';
-import PhotoLightbox from './PhotoLightbox';
+import PhotoLightbox from './photoLightbox';
 import { useLanguage } from '../context/LanguageContext';
 
 interface ProfilePhotosProps {
